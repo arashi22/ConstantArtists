@@ -822,7 +822,7 @@ input[type=submit]{
 }
 .all_center_content {
   position: relative;
-  top: 150px;         /* reduce padding top */
+  top: 130px;         /* reduce padding top */
 
   /*margin: 0 auto;*/
 }
