@@ -183,6 +183,7 @@ h5 {
 
 .los {
   font-family: "Work Sans";
+  color: #2676bd;
 }
 
 a {
@@ -783,6 +784,7 @@ input[type=submit]{
   text-align: center;
   white-space: nowrap;
   color: #2676bd;
+  font-family: 'Work Sans';
 }
 .rotate {
   -moz-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
@@ -812,6 +814,8 @@ input[type=submit]{
   z-index: 999;
   height: 150px;
   background-color: #fff;
+  left: 0;
+  top: 0;
 }
 .all_center_content {
   position: relative;
@@ -822,6 +826,7 @@ input[type=submit]{
 #constant_content{
   text-align: center;
   font-size: 48px;
+  font-family: 'Work Sans';
   font-weight: bold;
   letter-spacing: -0.3vw;
   cursor: pointer;
