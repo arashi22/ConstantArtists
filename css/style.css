@@ -61,8 +61,10 @@ body {
 	text-decoration:none;
 }
 #nav2 li:hover ul li a:hover{
-	background:#ffffff;
+  background:#ffffff;
+  border-bottom: 2px solid #2676bd;
 }
+
 #nav2 a:hover{
 	color:#fff;
 	background:#6b0c36;
@@ -853,12 +855,12 @@ input[type=submit]{
   color: #ffb1b1;
 }
 .image_pizza_style {
-  transform: rotate(0deg);
+  transform: rotate(-45deg);
   transition: 0.5s all;
 }
 .nav_for_right_side:hover .image_pizza_style, .nav_for_right_side_about_page:hover .image_pizza_style {
-  transform: rotate(45deg);
-  transition: 0.5s all;
+  transform: rotate(180deg);
+  transition: 2s all;
 }
 .nav_for_right_side_about_page {
   float: right;
