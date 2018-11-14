@@ -83,7 +83,8 @@ body {
 #nav2 li{
 	/*float:left;*/
 	margin-right:10px;
-	position:relative;
+  position:relative;
+  line-height: 2em;
 }
 #nav2 li ul li{
   margin-right: 0;
