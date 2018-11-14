@@ -5,8 +5,10 @@ var constant_content = $("#constant_content");
 function scroll() {
     if (window.pageYOffset >= 153) {
         $('#constant').removeClass('invisible');
+        $('#constant_content').css('visibility', 'hidden');
     } else {
         $('#constant').addClass('invisible');
+        $('#constant_content').css('visibility', 'visible');
     }
 }
 // window.onscroll = scroll();
