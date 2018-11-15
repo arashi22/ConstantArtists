@@ -770,6 +770,8 @@ input[type=submit]{
 .invisible {
   visibility: hidden;
 }
+
+/* if you want to move th elocation of that vertical text  to the left or right */
 .outer {
   width: 40px;
   position: fixed;
