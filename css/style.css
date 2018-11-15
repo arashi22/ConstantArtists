@@ -129,7 +129,7 @@ h4 {
   font-family: "Work Sans";
   font-size: 48px;
   font-weight: bold;
-  letter-spacing: -0.3vw;
+  letter-spacing: -0.5vw;
   cursor: pointer;
   color: #2676bd;
   margin-right: 164px;
@@ -810,7 +810,7 @@ input[type=submit]{
 .nav_for_right_side {
   float: right;
   position: relative;
-  bottom: 110px;
+  bottom: 140px;
   padding: 0 30px;
 }
 #wrapper {
@@ -835,14 +835,22 @@ input[type=submit]{
   /*margin: 0 auto;*/
 }
 #constant_content{
+  margin-bottom: 70px;
+  height: 232px;
+  position: relative;
+}
+#constant_content h4 {
   text-align: center;
   font-size: 48px;
   font-family: 'Work Sans';
   font-weight: bold;
-  letter-spacing: -0.3vw;
+  letter-spacing: -0.5vw;
   cursor: pointer;
   color: #2676bd;
-  margin-bottom:70px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
 }
 #constant_content span {
   transition: color 2s;
