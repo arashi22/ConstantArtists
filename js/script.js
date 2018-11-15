@@ -37,7 +37,18 @@ $(".photo").off('mouseleave').on('mouseleave', function () {
     $('.outer').addClass('invisible');
 });
 
+$("#mailing_list").click(function() {
+	$("#mc_embed_signup").show();
+})
 
+$("#mc-embedded-subscribe").click(function() {
+	$("#mc_embed_signup").hide();
+})
+
+$("#mc-embedded-cancel").click(function(e) {
+	e.preventDefault();
+	$("#mc_embed_signup").hide();
+})
 
 //
 // if ($( "#constant" ).hasClass( "sticky" )) {
