@@ -665,7 +665,7 @@ footer.footer_mobile .los{
   position: relative;
   padding: 20px 0 20px 25px;
   left: 0;
-  width:  100%;
+  width:  50%;
 }
 footer.footer_mobile div.form {
   padding-left: 20px;
@@ -855,7 +855,7 @@ input[type=submit]{
   font-size: 48px;
   font-family: 'Work Sans';
   font-weight: bold;
-  letter-spacing: -0.5vw;
+  letter-spacing: -1vw;
   cursor: none;
   color: #2676bd;
   position: absolute;
@@ -955,7 +955,7 @@ footer.footer_mobile {
     padding: 30px 0;
     font-size: 33px;
     font-weight: bold;
-    letter-spacing: -0.5vw;
+    letter-spacing: -1vw;
     cursor: none;
     color: #2676bd;
     margin-right: 131px;
@@ -983,6 +983,14 @@ footer.footer_mobile {
     pointer-events: none;
     transition: opacity 0.3s;
   }
+
+  .footer-title {
+    display: flex;
+  }
+}
+
+.los_footer {
+  display: none;
 }
 
 @media(max-width: 956px){
