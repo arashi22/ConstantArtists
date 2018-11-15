@@ -585,21 +585,22 @@ img.large {
 .bio_div{
   min-height: 130px;
   padding: 5px;
-  background-color: red;
+  background-color: #fff;
 }
 
 .bio_span{
-  background: red;
-  color: white;
+  background: #fff;
+  color: 2676bd;
   /*padding: 5px 5px 0 5px;*/
   text-align: center;
   /*display: block;*/
   height: auto;
+  font-size: 18px;
 }
 
 .h1_ed_norton{
   color: red;
-  font-size: 35px;
+  font-size: 18px;
 }
 
 img.small {
@@ -1006,7 +1007,7 @@ footer.footer_mobile {
 
 }
 .row2{
-  background: yellow;
+  background: #fff;
   width: 80%;
   margin: 5px auto;
   min-height: 100px;
@@ -1014,16 +1015,26 @@ footer.footer_mobile {
   min-width:300px;
   padding: 30px;
 }
+.row2_span {
+  color: #2676bd;
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+}
 .row3{
   width: 80%;
   margin: 5px auto;
-  background: #C2F6F4;
+  background: #fff;
   min-height: 200px;
   min-width:300px;
   padding: 30px;
 }
+.row3_span {
+  color: #2676bd;
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+}
 .row4{
-  background: #58f656;
+  background: #fff;
   width: 80%;
   margin: 5px auto;
   min-height: 200px;
@@ -1032,10 +1043,6 @@ footer.footer_mobile {
 }
 .row4 span,row2 span,row3 span {
   line-height: 1.1em;
-}
-.row3 span{
-  color: #F6C0C0;
-  font-size: 20px;
 }
 .bio_wrap{
   border: none;
