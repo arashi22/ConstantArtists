@@ -9,7 +9,6 @@ body {
   background-color: #fff;
   color: #2676bd;
   margin: 0 auto 80px auto;
-  width: 960px;
 }
 
 .logo {
@@ -546,8 +545,10 @@ img.large {
 }
 
 .contact_span{
-  color: black;
-  font-size: 40px;
+  color: #2676bd;
+  font-size: 18px;
+  font-family: 'Kosugi Maru', sans-serif;
+  width: 80%;
 }
 
 .wide_span {
@@ -984,10 +985,22 @@ footer.footer_mobile {
   margin-right: 1%;
 }
 
+.row1_image_div img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  transition: filter 0.3s;
+  filter: grayscale(100%);
+  border: 1px solid #000;
+}
+
 .contact_info{
-  border: 1px solid #000000;
   width: 49%;
-  padding: 70px 0;
+  padding: 0;
   text-align: center;
   line-height: initial;
 
