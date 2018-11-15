@@ -36,10 +36,10 @@ body {
 }
 
 #nav2 ul{
-	background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+	background:rgba(255, 255, 255, 0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
 	list-style:none;
 	position:absolute;
-	left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+  left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
 }
 
 #nav2 ul a{
@@ -53,7 +53,7 @@ body {
 }
 
 #nav2 li:hover a{
-	background:#ffffff;
+	background:transparent;
 	text-decoration:underline;
   color: #2676bd;
   text-align: right;
@@ -693,6 +693,7 @@ footer nav a {
   position: absolute;
   left: 0;
   left: 50px;
+  width: 100px;
 }
 
 
