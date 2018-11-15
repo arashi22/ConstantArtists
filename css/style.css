@@ -629,6 +629,11 @@ img.title {
   color: white;
 }
 
+#mailing_list {
+  background-color: #2676BD;
+  color: white;
+}
+
 .email_input:focus::placeholder{
   color: white;
 }
