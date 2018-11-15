@@ -824,7 +824,7 @@ input[type=submit]{
   width: 100%;
   z-index: 999;
   height: 150px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0);
   left: 0;
   top: 0;
 }
