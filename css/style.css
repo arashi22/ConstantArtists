@@ -863,6 +863,8 @@ input[type=submit]{
 #constant_content span:nth-child(3n):hover {
   color: #ffb1b1;
 }
+
+/* set start degree of pizza */
 .image_pizza_style {
   transform: rotate(-45deg);
   transition: 0.5s all;
