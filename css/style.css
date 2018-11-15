@@ -665,6 +665,7 @@ footer.footer_mobile .los{
   position: relative;
   padding: 20px 0 20px 25px;
   left: 0;
+  width:  100%;
 }
 footer.footer_mobile div.form {
   padding-left: 20px;
@@ -861,6 +862,7 @@ input[type=submit]{
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
+  width: 100%;
 }
 #constant_content span {
   transition: color 2s;
@@ -936,10 +938,11 @@ footer.footer_mobile {
   }
   .nav_for_right_side {
     float: right;
-    position: relative;
-    bottom: 70px;
+    position: absolute;
     padding: 0 30px;
     width: 100px;
+    right: -10px;
+    top: 30px;
   }
   .nav_for_right_side_about_page {
     float: right;
@@ -952,10 +955,13 @@ footer.footer_mobile {
     padding: 30px 0;
     font-size: 33px;
     font-weight: bold;
-    letter-spacing: -0.3vw;
-    cursor: pointer;
+    letter-spacing: -0.5vw;
+    cursor: none;
     color: #2676bd;
     margin-right: 131px;
+  }
+  #constant_content h4 {
+    font-size: 33px;
   }
   .last_photo {
     padding-bottom: 150px;
