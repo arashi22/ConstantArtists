@@ -60,14 +60,7 @@ $("#mc-embedded-cancel").click(function(e) {
 //     $('.constant_out_header').css('display','block');
 // }
 
-
-/*
-Submitted by Marcin Wojtowicz [one_spook@hotmail.com] 
-Featured on JavaScript Kit (http://javascriptkit.com)
-Modified by JK to be IE7+/ Firefox compatible
-For this and over 400+ free scripts, visit http://javascriptkit.com
-*/
-
+// You can disable cursor from here
 var trailLength = 8 // The length of trail (8 by default; put more for longer "tail")
 var path = "./img/cursor.png" // URL of your image
 
@@ -114,4 +107,4 @@ function processEvent(e) { // catches and processes the mousemove event
 	initTrail() 
 	document.onmousemove = processEvent // start capturing
 
-//-->
+// You can disable cursor to here-->
