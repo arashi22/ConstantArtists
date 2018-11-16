@@ -628,9 +628,9 @@ img.title {
   color: white;
 }
 
-#mailing_list {
-  background-color: #2676BD;
-  color: white;
+.mailing_list {
+  background-color: #2676BD !important;
+  color: white !important;
 }
 
 .email_input:focus::placeholder{
@@ -956,7 +956,7 @@ footer.footer_mobile {
     letter-spacing: -6px;
     cursor: none;
     color: #2676bd;
-    margin-right: 60px;
+    margin-right: 90px;
   }
   #constant_content h4 {
     font-size: 33px;
@@ -1088,7 +1088,8 @@ footer.footer_mobile {
   display: none;
   position: fixed;
   left: 50%;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   top: 50%;
   transform: translate(-50%, -50%);
   border: 1px solid #eee;
