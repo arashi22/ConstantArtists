@@ -3,7 +3,7 @@ window.onscroll = scroll;
 
 var constant_content = $("#constant_content");
 function scroll() {
-    if (window.pageYOffset >= 153) {
+    if (window.pageYOffset >= 73) {
         $('#constant').removeClass('invisible');
         $('#constant_content').css('visibility', 'hidden');
     } else {

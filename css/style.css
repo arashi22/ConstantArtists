@@ -115,7 +115,6 @@ body {
 
 h4 {
   font-family: Helvetica;
-  padding: 80px;
   font-size: 48px;
   font-weight: bold;
   cursor: pointer;
@@ -132,7 +131,7 @@ h4 {
   letter-spacing: -0.5vw;
   cursor: pointer;
   color: #2676bd;
-  margin-right: 164px;
+  margin-right: 95px;
 }
 
 #constant span {
@@ -810,9 +809,10 @@ input[type=submit]{
   transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
 }
 .constant_mark_logo {
-  width: 166px;
+  width: 70px;
   float: left;
-  padding: 20px 35px;
+  padding: 20px 0;
+  margin-left: 25px;
 }
 
 .constant_mark_logo a:hover {
@@ -846,7 +846,6 @@ input[type=submit]{
   /*margin: 0 auto;*/
 }
 #constant_content{
-  margin-bottom: 70px;
   height: 232px;
   position: relative;
 }
@@ -855,14 +854,13 @@ input[type=submit]{
   font-size: 48px;
   font-family: 'Work Sans';
   font-weight: bold;
-  letter-spacing: -1vw;
+  letter-spacing: -0.5vw;
   cursor: none;
   color: #2676bd;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
-  width: 100%;
 }
 #constant_content span {
   transition: color 2s;
@@ -934,7 +932,7 @@ footer.footer_mobile {
     display: block;
   }
   .constant_mark_logo {
-    width: 120px;
+    width: 70px;
   }
   .nav_for_right_side {
     float: right;
@@ -955,13 +953,15 @@ footer.footer_mobile {
     padding: 30px 0;
     font-size: 33px;
     font-weight: bold;
-    letter-spacing: -1vw;
+    letter-spacing: -6px;
     cursor: none;
     color: #2676bd;
-    margin-right: 131px;
+    margin-right: 60px;
   }
   #constant_content h4 {
     font-size: 33px;
+    letter-spacing: -6px;
+    top: -25px;
   }
   .last_photo {
     padding-bottom: 150px;
