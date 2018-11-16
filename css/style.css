@@ -310,7 +310,7 @@ header nav a.selected {
   /*!*opacity:;*!*/
 /*}*/
 .photo {
-  width: 250px;
+  width: 236px;
   margin: 10px;
   position: relative;
   opacity: 1;
@@ -846,7 +846,7 @@ input[type=submit]{
   /*margin: 0 auto;*/
 }
 #constant_content{
-  height: 232px;
+  height: 70px;
   position: relative;
 }
 #constant_content h4 {
@@ -925,6 +925,10 @@ footer.footer_mobile {
 }
 
 @media(max-width: 776px) {
+  #constant_content{
+    height: 30px;
+    position: relative;
+  }
   footer.footer_desktop {
     display: none;
   }
