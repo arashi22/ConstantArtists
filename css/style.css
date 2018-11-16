@@ -970,13 +970,13 @@ footer.footer_mobile {
     height: 100px;
   }
   .list {
-    padding-top: 420px;
+    padding-top: 150px;
     text-align: center;
     padding-bottom: 220px;
   }
   .list a img {
     position: fixed;
-    top: 30%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 200px;
