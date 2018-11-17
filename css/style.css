@@ -923,6 +923,9 @@ footer.footer_desktop {
 footer.footer_mobile {
   display: none;
 }
+.show-mobile {
+  display: none;
+}
 .service_text {
   white-space: pre-line;
   color:#2676bd;
@@ -942,6 +945,9 @@ footer.footer_mobile {
   }
   footer.footer_mobile {
     display: block;
+  }
+  .show-mobile {
+    display: flex;
   }
   .constant_mark_logo {
     width: 70px;
